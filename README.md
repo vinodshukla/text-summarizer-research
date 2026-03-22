@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 "# Text Summarizer Research Project" 
-
 =======
 # text-summarizer-research
 text-summarizer-research
