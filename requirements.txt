@@ -1,1 +1,5 @@
-"torch\ntransformers\ndatasets\nrouge-score\ntqdm\ngradio" 
+gradio==4.37.2
+transformers==4.39.3
+torch>=2.2.0
+sentencepiece
+accelerate
