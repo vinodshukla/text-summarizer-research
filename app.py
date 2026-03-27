@@ -6,14 +6,14 @@ import mlflow
 import dagshub
 
 # --- 1. MLOps (Replace with your actual DagsHub username) ---
-REPO_OWNER = "Your_DagsHub_Username" 
+REPO_OWNER = "vinodshukla" 
 REPO_NAME = "AI-Lab"
 
 def init_tracking():
     try:
         dagshub.init(repo_owner=REPO_OWNER, repo_name=REPO_NAME, pip_install=True)
         mlflow.set_tracking_uri(f"https://dagshub.com{REPO_OWNER}/{REPO_NAME}.mlflow")
-        mlflow.set_experiment("AI-Lab")
+        mlflow.set_experiment("AI-Lab-Summarizer")
         print("✅ MLflow Tracking Active")
     except Exception as e:
         print(f"⚠️ Tracking skipped: {e}")
@@ -41,7 +41,7 @@ demo = gr.Interface(
     fn=summarize,
     inputs=[gr.Textbox(lines=5), gr.Slider(20, 200, 80), gr.Slider(10, 100, 20), gr.Slider(1, 10, 4)],
     outputs="text",
-    title="AI-Lab"
+    title="AI-Lab Summarizer"
 )
 
 # --- 5. THE MISSING FUNCTION ---
