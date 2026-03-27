@@ -1,5 +1,5 @@
 ---
-title: AI Lab
+title: Text Summarizer Research
 emoji: 📚
 colorFrom: blue
 colorTo: purple
@@ -12,9 +12,9 @@ pinned: false
 
 
 <<<<<<< HEAD
-"# AI Lab" 
+"# Text Summarizer Research Project" 
 =======
-# AI-Lab
-AI-Lab
->>>>>>>
+# text-summarizer-research
+text-summarizer-research
+>>>>>>> 46b13269acf74b1f16ddecafd2ea7a4c207991c8
      
