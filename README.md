@@ -1,4 +1,4 @@
-\---
+---
 
 title: Text Summarizer Research
 
@@ -18,7 +18,7 @@ app\_file: app.py
 
 pinned: false
 
-\---
+---
 
 
 
