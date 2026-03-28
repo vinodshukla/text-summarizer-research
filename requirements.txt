@@ -1,5 +1,3 @@
 transformers
 torch
 sentencepiece
-mlflow
-dagshub
